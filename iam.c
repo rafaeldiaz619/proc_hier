@@ -25,12 +25,6 @@ int main(int argc, char *argv[]) {
 
     printf("I am child %s (%d), parent PID is %d\n", annotation, pid, ppid);
 
-    // Infinite loop for debugging/attaching
-    int i = 1;
-    while (i) {
-        // spin
-    }
-
     printf("Child %s (%d) exiting\n", annotation, pid);
     return 0;
 }
